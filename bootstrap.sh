@@ -2,7 +2,7 @@
 set -e
 
 duty=${1}
-
+HOSTS_DIR=/local/host_list
 # --------------------- Check if every host online ----------------------------
 awk 'NR>1 {print $NF}' /etc/hosts | grep -v 'master' > $HOSTS_DIR
 if [ "$duty" = "m" ]; then
