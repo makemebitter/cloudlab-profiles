@@ -1,4 +1,4 @@
-"""Cerebro cluster WIP"""
+"""Spawn a cluster and setup the networking, don't do anything"""
 
 # Import the Portal object.
 import geni.portal as portal
