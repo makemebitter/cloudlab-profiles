@@ -33,6 +33,7 @@ fi
 # -----------------------------------------------------------------------------
 if [ "$duty" = "m" ]; then
   # Master bootstrap
+fi
 elif [ "$duty" = "s" ]; then
   # Slave bootstrap
 fi
