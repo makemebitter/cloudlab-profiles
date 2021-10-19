@@ -38,7 +38,7 @@ pc.defineParameter("osNodeTypeMaster", "Hardware Type for master",
                      experiment may have machines of any available type
                      allocated.''')
 pc.defineParameter("osNode", "OS for the nodes",
-                   portal.ParameterType.STRING, "ubuntu16",  
+                   portal.ParameterType.STRING, "ubuntu16", legalValues=sorted(list(DISK_IMAGES.keys())), 
                    longDescription='''OS for the nodes''')
 pc.defineParameter("publicIPSlaves", "Request public IP addresses for the slaves or not",
                    portal.ParameterType.BOOLEAN, True)
