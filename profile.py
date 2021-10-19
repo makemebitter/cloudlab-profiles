@@ -1,4 +1,4 @@
-"""Spawn a cluster and setup the networking, don't do anything"""
+"""Spawn a cluster and setup the networking, don't do anything else. You get bare metal machines."""
 
 # Import the Portal object.
 import geni.portal as portal
